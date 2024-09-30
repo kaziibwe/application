@@ -1,0 +1,51 @@
+[
+    {
+        "name": "erkineren/shopier",
+        "version": "v0.2.1",
+        "version_normalized": "0.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/erkineren/shopier.git",
+            "reference": "28c61caacb884aacec07133d5db33ddde9c2fb69"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/erkineren/shopier/zipball/28c61caacb884aacec07133d5db33ddde9c2fb69",
+            "reference": "28c61caacb884aacec07133d5db33ddde9c2fb69",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*"
+        },
+        "require-dev": {
+            "vlucas/phpdotenv": "^4.1"
+        },
+        "time": "2020-01-27T15:26:09+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Shopier\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Erkin Eren",
+                "email": "eren@erkin.net",
+                "homepage": "https://erkin.net"
+            }
+        ],
+        "description": "Shopier Entegrasyon - Php Api Sdk",
+        "keywords": [
+            "api",
+            "entegrasyon",
+            "payment gateway",
+            "shopier",
+            "ödeme alma entegrasyonu"
+        ]
+    }
+]

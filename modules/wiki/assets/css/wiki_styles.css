@@ -1,0 +1,218 @@
+h3.article-show{
+    margin-top: 0px;
+}
+.wiki-book-title .wiki-book-heading{
+    height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    margin-bottom: 5px;
+}
+.wiki-book-decription{
+    height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+.wiki-item-panel .wiki-author-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wiki-item-panel.wiki-book-panel .panel-footer{
+    padding: 0;
+}
+.panel-footer .wiki-footer-option{
+    padding: 10px 15px;
+    display: block;
+}
+.panel-footer a.wiki-footer-option:hover{
+    color: inherit;
+    background: #fff;
+}
+
+.wiki-item-panel .wiki-counter-value {
+    font-size: 14px;
+}
+
+.wiki-item-panel .wiki-counter-name {
+    font-size: 14px;
+}
+
+.wiki-hr-header{
+    border-color: rgba(0,0,0,0.1);
+}
+
+.wiki-buttons-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wiki-buttons-wrap .input-group {
+    width: 260px;
+}
+
+
+.wiki-item-panel .wiki-item-title a{
+    color: rgba(0,0,0,1);
+}
+
+.wiki-article-panel .wiki-article-header{
+    display: flex;
+}
+.wiki-article-panel .wiki-article-header .article-headbar{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+
+.wiki-article-panel .wiki-article-description{
+    height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+.wiki-article-panel .wiki-item-heading{
+    margin-bottom: 5px;
+    height: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+
+.wiki-article-panel .wiki-article-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.wiki-article-panel .wiki-article-footer .wiki-author-detail{
+    flex-grow: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wiki-author-name{
+    text-transform: capitalize;
+}
+
+.wiki-empty-results{
+    text-transform: capitalize;
+}
+
+.wiki-form-buttons{
+    text-align: right;
+}
+.wiki-form-buttons > * {
+    display: inline-block;
+    
+}
+.wiki-form-buttons > *:not(:last-child){
+    margin-right: 10px;
+}
+
+.wiki-nav{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.wiki-nav .wiki-nav-item{
+    
+}
+.wiki-nav .wiki-nav-item .wiki-nav-link{
+    color: inherit;
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.wiki-nav .wiki-nav-item:hover:not(.active) .wiki-nav-link{
+    background: rgba(255, 255, 255, 1);
+}
+.wiki-nav .wiki-nav-item.active .wiki-nav-link{
+    background: #2b65e8;
+    color: white;
+}
+.wiki-book-decription{
+}
+/* Responsive */
+
+.wiki-item-btn{
+    margin-bottom: 5px;
+}
+
+.wiki-dropdown-wrapper{
+    margin-bottom: 0;
+    width: 200px;
+}
+.wiki-search-wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive */
+
+.wiki-buttons-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.wiki-buttons-wrap > * {
+    margin-bottom: 10px;
+}
+
+.wiki-bookmark-off, .wiki-bookmark-off:active, .wiki-bookmark-off:focus{
+    color: rgba(0, 0, 0, 0.3);
+    border-color: #e6e9eb !important;
+}
+.wiki-bookmark-on, .wiki-bookmark-on:active, .wiki-bookmark-on:focus{
+    color: #d39e00;
+    border-color: #d39e00 !important;
+}
+
+.wiki-mindmap-thumb {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-top: 10px;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .wiki-search-wrap {     
+        display: block;
+        
+  }
+  .wiki-nav .wiki-nav-item .wiki-nav-link{
+    color: inherit;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+    .wiki-buttons-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    .wiki-buttons-wrap > * {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

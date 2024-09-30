@@ -1,0 +1,92 @@
+.hrm-fullwidth {
+	width: 100%;
+}
+
+.hrm-margin9 {
+	margin: 9px 0px 9px 0px;
+}
+
+.hrm-bgblue {
+}
+
+.hrm-lineheight84 {
+	line-height: 84px;
+}
+
+.hrm-nowrap {
+	white-space: nowrap;
+}
+
+.hrm-radius20 {
+	border-radius: 20px;
+}
+
+.hrm-minheight85 {
+	min-height: 85px;
+}
+
+.hrm-fontsize24 {
+	font-size: 24px;
+}
+
+.hrm-fontsize14 {
+	font-size: 14px;
+}
+
+.hrm-colorblue {
+	color: #03a9f4;
+}
+
+.hrm-colorpurple {
+	color: #8085E9;
+}
+
+.hrm-payrollorange {
+	color: #fb8c00;
+	border: 1px solid #fb8c00;
+}
+
+.hrm-payrollgreen {
+	color: #84C529;
+	border: 1px solid #84C529;
+}
+
+.hrm-borderbottomlblue {
+    border-bottom: 1px solid #03a9f4;
+}
+
+.hrm-fontsize15 {
+	font-size: 15px;
+}
+
+.hrm-minheight35 {
+	min-height: 35px;
+}
+
+.hrm-marginauto {
+	margin: 0 auto;
+}
+
+.hrm-minwidth310 {
+	min-width: 310px
+}
+
+.hrm-radius04 {
+	border-radius: 4px;
+}
+
+.hrm-width150 {
+	width: 150%;
+}
+
+.hrm-contents {
+	display: contents;
+}
+
+#hot-display-license-info{
+	display: none;
+}
+
+.htDropdownMenu {
+    z-index: 10001;
+}

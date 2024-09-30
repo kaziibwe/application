@@ -1,0 +1,46 @@
+.modalwidth {
+	width: 120%;
+}
+
+.width65 {
+	width: 65%;
+}
+
+.nomargintop {
+	margin-top: 0px;
+}
+
+.noleftrightpadding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.marginright5 {
+	margin-right: 5px;
+}
+
+.margintop25 {
+	margin-top: 25px;
+}
+
+.bigzindex {
+	z-index: 10001;
+}
+
+.automargin {
+	margin: auto;
+}
+
+.backgroundscroll {
+    background: scroll;
+}
+
+.zoom {
+  transition: transform .2s; 
+  width: 80px;
+  height: 80px;
+}
+
+.zoom:hover {
+  transform: scale(1.4); 
+}

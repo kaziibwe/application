@@ -1,0 +1,21 @@
+.header_custom_choice_span {
+  position: absolute;
+  top: 4px;
+  right: 28px;
+  font-size: 17px;
+}
+.valign {
+  vertical-align: super;
+}
+.remove_padding {
+  padding: 0px !important;
+}
+.box{
+  overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.grid-3{
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-gap: 20px;
+}

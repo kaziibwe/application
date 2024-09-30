@@ -1,0 +1,142 @@
+.perfexdashboard-pagination-wrapper {
+  text-align: center;
+}
+
+.perfexdashboard-button-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.perfexdashboard-widget-info-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.perfexdashboard-widget-info-wrap .widget-name {
+  font-size: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.perfexdashboard-widget-info-wrap .widget-category {
+  text-transform: uppercase;
+}
+.perfexdashboard-widget-info-wrap .widget-note {
+  width: 100%;
+}
+
+.perfexdashboard-actions-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.perfexdashboard-actions-wrap-between {
+  justify-content: space-between;
+}
+
+.perfexdashboard-actions-wrap .perfexdashboard-categories-select {
+  width: 250px;
+}
+
+.perfexdashboard-categories-select {
+  max-width: 250px;
+  display: inline-block;
+}
+
+.perfexdashboard-period-select {
+  width: 250px;
+  display: inline-block;
+}
+
+.perfexdashboard-width-select {
+  width: 250px;
+}
+
+.perfexdashboard-date-range .input-group.date {
+  margin-top: 5px;
+}
+
+.widget {
+  position: relative;
+}
+
+.perfexdashboard-widget-removable:before {
+  content: "\f00d";
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+.perfexdashboard-widget-removable {
+  position: absolute;
+  top: 45px;
+  left: -15px;
+  color: #a9afbb;
+  cursor: move;
+  z-index: 2;
+}
+
+.perfexdashboard-widget-removable:hover,
+.perfexdashboard-widget-removable:active {
+  color: #969aa2;
+}
+.perfexdashboard-widget-removable:hover {
+  cursor: pointer;
+}
+
+.mobile .perfexdashboard-widget-removable {
+  display: none;
+}
+
+.perfexdashboard-widget-changeable:before {
+  content: "\f040";
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+.perfexdashboard-widget-changeable {
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  color: #a9afbb;
+  cursor: move;
+  z-index: 2;
+}
+.widget-dragger {
+  top: 25px;
+}
+.perfexdashboard-widget-changeable:hover,
+.perfexdashboard-widget-changeable:active {
+  color: #969aa2;
+}
+.perfexdashboard-widget-changeable:hover {
+  cursor: pointer;
+}
+
+.mobile .perfexdashboard-widget-changeable {
+  display: none;
+}
+
+.perfexdashboard-search-input {
+  width: 250px;
+}
+
+.perfexdashboard-actions-section-right {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.perfexdashboard-actions-section-right > * {
+  margin-right: 15px;
+}
+
+.perfexdashboard-table thead th {
+  background-color: #ebf5ff;
+}
+
+.perfexdashboard-btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.perfex-dashboard-widget-list .widget-dragger {
+  display: none;
+}

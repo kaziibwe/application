@@ -1,0 +1,19 @@
+.si-todo-category-name {
+    position: relative;
+    padding: 10px 10px 0 10px;
+    display: block;
+	font-weight: 500;
+}
+.si-todos-sortable li:not(.padding){margin:0 !important;border-bottom: 1px solid !important;border-radius:4px;padding:0 5px;}
+.si-todos-sortable li:first-child{border-top: 1px solid !important;}
+.si-todos-category-sortable li:not(.padding){padding:5px;}
+.si_todos_priorities_1{color:#777;}
+.si_todos_priorities_2{color:#03a9f4;}
+.si_todos_priorities_3{color:#ff6f00;}
+.si_todos_priorities_4{color:#fc2d42;}
+.si_todos_priorities_border_1{border-left: 5px solid #777;}
+.si_todos_priorities_border_2{border-left: 5px solid #03a9f4;}
+.si_todos_priorities_border_3{border-left: 5px solid #ff6f00;}
+.si_todos_priorities_border_4{border-left: 5px solid #fc2d42;}
+.si_todo_tabs_a{padding:10px 10px !important;}
+.si-total-todos{position:absolute;border-radius:8px;padding: 2px 5px;top:0;right:0;}

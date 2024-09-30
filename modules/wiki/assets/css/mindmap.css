@@ -1,0 +1,14 @@
+#panel {
+  height: 30px;
+  background: #3EAAF7;
+  font-family: 'Hiragino Sans GB', 'Arial', 'Microsoft Yahei';
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  transition: -webkit-transform .7s ease;
+  transition: transform .7s ease;
+  z-index: 11;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+

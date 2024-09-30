@@ -1,0 +1,20 @@
+.pr-goal-percent {
+    font-size: 9px !important;
+    left: 0px;
+    font-weight: bold;
+}
+
+.pr-classic-style {
+	max-width: 800px; 
+	height: 400px; 
+	margin: 0 auto;
+}
+
+.pr-height360 {
+	min-height: 361px;
+}
+
+tr.pr-project-overview-charge-code>td, tr.pr-project-overview-customer>td, tr.pr-project-overview-status>td, tr.pr-project-overview-date-finished>td, tr.pr-project-overview-total-logged-hours>td {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}

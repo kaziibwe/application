@@ -1,0 +1,39 @@
+{
+  "name": "erkineren/shopier",
+  "type": "library",
+  "description": "Shopier Entegrasyon - Php Api Sdk",
+  "keywords": [
+    "shopier",
+    "api",
+    "payment gateway",
+    "ödeme alma entegrasyonu",
+    "entegrasyon"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Erkin Eren",
+      "email": "eren@erkin.net",
+      "homepage": "https://erkin.net"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "5.6"
+    },
+    "autoloader-suffix": "Shopier",
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Shopier\\": "src/"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "^4.1"
+  }
+}

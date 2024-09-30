@@ -1,0 +1,37 @@
+.dropzone-banner {
+    min-height: 0px !important;
+}
+
+.image-slideshow {
+    max-height: 350px;
+    object-fit: contain;
+}
+
+.alert-dismissible-2 .close {
+    right: 0px !important;
+}
+
+.caption_text {
+  font-size: 15px;
+  padding: 22px 26px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #000000; /* Set text color */
+  text-align: center; /* Center text horizontally */
+  position: absolute; /* Relative positioning */
+  margin: 10px 0px 0px 10px;
+}
+
+.circle {
+  width: 50px; /* Set width */
+  height: 50px; /* Set height */
+  background-color: white; /* Set background color */
+  border-radius: 50%; /* Make it round */
+  line-height: 50px; /* Center text vertically */
+}
+

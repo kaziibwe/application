@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "94c5f4a0ea7f8c2f6cd1bcc9afe2ccb1",
+    "packages": [
+        {
+            "name": "erkineren/shopier",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erkineren/shopier.git",
+                "reference": "28c61caacb884aacec07133d5db33ddde9c2fb69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erkineren/shopier/zipball/28c61caacb884aacec07133d5db33ddde9c2fb69",
+                "reference": "28c61caacb884aacec07133d5db33ddde9c2fb69",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "vlucas/phpdotenv": "^4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Shopier\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erkin Eren",
+                    "email": "eren@erkin.net",
+                    "homepage": "https://erkin.net"
+                }
+            ],
+            "description": "Shopier Entegrasyon - Php Api Sdk",
+            "keywords": [
+                "api",
+                "entegrasyon",
+                "payment gateway",
+                "shopier",
+                "ödeme alma entegrasyonu"
+            ],
+            "time": "2020-01-27T15:26:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    },
+    "platform-dev": []
+}

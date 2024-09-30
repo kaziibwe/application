@@ -1,0 +1,11 @@
+#tab-container{
+            display: none;
+            height: 0px;
+        }
+        #panel{
+            display: none;
+            height: 0px;
+        }
+        #kityminder{
+            top: 0px;
+        }

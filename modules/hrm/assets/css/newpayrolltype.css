@@ -1,0 +1,13 @@
+  .ui-datepicker-calendar {
+    display: none;
+    }
+  .ui-datepicker-month{
+    color: #323a45;
+  }
+  .ui-datepicker-year{
+    color: #323a45;
+  }
+  .c_bold{
+    font-weight: bold;
+    text-transform: uppercase;
+  }

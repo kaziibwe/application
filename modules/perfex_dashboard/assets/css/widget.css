@@ -1,0 +1,244 @@
+
+/* customize */
+.mleftauto{
+    margin-left: auto;
+}
+.mbot40 {
+    margin-bottom: 40px
+}
+
+.card_stats_wrapper {
+    padding: 15px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 15px 1px rgb(90 90 90 / 8%);
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 5%);
+    border: unset;
+    margin-bottom: 15px;
+}
+.card_stats_wrapper .text-uppercase span.pull-right {
+    display: block;
+    float: none !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 10px 0;
+}
+.card_stats_wrapper .text-uppercase {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+div#widget-top_stats .progress {
+    box-shadow: none !important;
+}
+
+.card_stats_wrapper .progress-bar-mini {
+    height: 11px!important;
+    box-sizing: border-box;
+    border-radius: 111px;
+}
+/* Card with percent */
+.card_stats_wrapper.card_percent .text-uppercase {
+    font-size: 16px;
+}
+.card_stats_wrapper.card_percent .text-uppercase span.pull-right {
+    font-size: 16px;
+}
+.card_stats_wrapper.card_percent .card_percent_total {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.revenue-labels {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -25px 20px;
+}
+.revenue-labels div {
+    padding: 25px;
+}
+.revenue-labels strong {
+    font-size: 24px;
+    display: block;
+    font-weight: 600;
+}
+.revenue-labels span {
+    font-size: 14px;
+    display: block;
+    position: relative;
+    padding-left: 17px;
+}
+.revenue-labels span:before {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #c6d0dc;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.horizontal-tabs-header{
+    min-height: 50px;
+}
+
+.user-data .perfex-dashboard-panel .tab-content {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 15px;
+}
+
+
+.user-data .perfex-dashboard-panel .tab-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 15px
+}
+
+body.rtl .perfex-dashboard-panel .tab-content {
+    padding-right: 0;
+    padding-left: 15px
+}
+
+.user-data .perfex-dashboard-panel.panel-body {
+    padding-top: 10px
+}
+
+.user-data .perfex-dashboard-panel .nav.nav-tabs>li>a {
+    color: #333!important
+}
+
+.firefox .user-data .perfex-dashboard-panel .nav.nav-tabs>li>a {
+    line-height: 14px
+}
+
+.user-data .perfex-dashboard-panel .nav.nav-tabs {
+    border: 0;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    padding-top: 5px;
+    background: #fff!important
+}
+
+
+.user-data .perfex-dashboard-panel .nav-tabs>li.active>a,.user-data .perfex-dashboard-panel .nav-tabs>li.active>a:focus,.user-data .perfex-dashboard-panel .nav-tabs>li.active>a:hover,.user-data .perfex-dashboard-panel .nav-tabs>li>a:focus,.user-data .perfex-dashboard-panel .nav-tabs>li>a:hover {
+    border-bottom: 0;
+    color: #008ece!important;
+    margin-bottom: 2px
+}
+
+.user-data .perfex-dashboard-panel .nav-tabs>li.active>a,.user-data .perfex-dashboard-panel .nav-tabs>li.active>a:focus,.user-data .perfex-dashboard-panel .nav-tabs>li.active>a:hover {
+    font-weight: 500
+}
+
+.user-data .perfex-dashboard-panel i.menu-icon {
+    width: 10px;
+    font-size: 16px
+}
+@media only screen and (max-width: 575px){
+    .user-data .perfex-dashboard-panel .horizontal-tabs .d-flex{
+        flex-flow: column;
+        text-align: center;
+        padding: 20px 0;
+        padding-top: 0px;
+        min-height: auto;
+        align-items: center;
+    }
+    .user-data .perfex-dashboard-panel .nav.nav-tabs{
+      margin-left:0;
+      margin-top:0;
+      margin-bottom: 0;
+      padding-top: 0;
+      display: flex;
+    }
+    .user-data .perfex-dashboard-panel .hr-user-data-tabs {
+        margin-top: -20px;
+    }
+  }
+  
+  /* card */
+  .card-counter{
+    box-shadow: 2px 2px 10px #DADADA;
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+  }
+
+  .card-counter:hover{
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+  }
+
+  .card-counter.primary{
+    background-color: #28b8da;
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #fc2d42;
+    color: #FFF;
+  }  
+
+  .card-counter.success{
+    background-color: #84c529;
+    color: #FFF;
+  }  
+
+  .card-counter.info{
+    background-color: #03a9f4;
+    color: #FFF;
+  }  
+
+  .card-counter.warning{
+    background-color: #ff6f00;
+    color: #FFF;
+  } 
+  
+  .card-counter i{
+    font-size: 4.5em;
+    opacity: 0.5;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 30px;
+    display: block;
+  }
+  .card-counter .count-numbers.priceable{
+    font-size: 22px;
+  }
+
+
+  .card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    text-transform: capitalize;
+    display: block;
+    font-size: 16px;
+  }
+  .max-height-400{
+    max-height: 400px;
+  }
+  .height-250{
+      height: 250px;
+  }
+  .d-none{
+      display: none !important;
+  }
+  .padding-right-0{
+    padding-right:0px;
+  }

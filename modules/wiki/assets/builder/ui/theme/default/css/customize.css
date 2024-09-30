@@ -1,0 +1,49 @@
+    /* Place the navbar at the bottom of the page, and make it stick */
+.navbar-bottom-builder {
+  background-color: #3EAAF7;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar-bottom-builder a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar-bottom-builder a span{
+  margin-left: 5px;
+}
+
+/* Change the color of links on hover */
+.navbar-bottom-builder a:hover {
+  background-color: #35393F;
+  color: #fff;
+}
+
+/* Add a color to the active/current link */
+.navbar-bottom-builder a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.nav-bar {
+ 
+  bottom: 100px;
+
+}
+.preview-navigator {
+    bottom: 100px;
+   
+}
+.text-success{
+  color: #1cc88a!important;
+}
+.alert-popup{
+  padding: 0.5em !important;
+}

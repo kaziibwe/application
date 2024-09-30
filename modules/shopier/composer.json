@@ -1,0 +1,17 @@
+{
+  "name": "noxfor/perfex-shopier",
+  "description": "Shopier Payment Gateway for Perfex CRM",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Noxfor",
+      "email": "info@noxfor.com"
+    }
+  ],
+  "require": {
+    "erkineren/shopier": "^0.2.1",
+    "ext-curl": "*",
+    "ext-simplexml": "*"
+  }
+}

@@ -1,0 +1,23 @@
+  .colHeader {
+    font-weight: bold;
+  }
+  .htbold {
+    font-weight: bold;
+  }
+  td.value-l {
+    width: 100%;
+    height: 29px;
+
+  }
+  td.value-ct {
+    color: #0719ef;
+    width: 100%;
+    height: 29px;
+    font-weight: bold;
+
+  }
+  .handsontable table thead th {
+    white-space: pre-line;
+    vertical-align: middle;
+    max-width: 40px;
+  }

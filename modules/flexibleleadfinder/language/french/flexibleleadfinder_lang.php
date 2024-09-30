@@ -1,0 +1,46 @@
+<?php
+
+# Version 2.3.0
+$fa_prefix= 'flexibleleadfinder_';
+$lang[$fa_prefix.'lead-finder'] = 'Chercheur de prospects';
+$lang[$fa_prefix.'new-search'] = 'Nouvelle recherche';
+$lang[$fa_prefix.'result-count'] = 'Nombre de résultats';
+$lang[$fa_prefix.'name'] = 'Nom';
+$lang[$fa_prefix.'keyword'] = 'Mot-clé';
+$lang[$fa_prefix.'actions'] = 'Actions';
+$lang[$fa_prefix.'view-result'] = 'Voir le résultat';
+$lang[$fa_prefix.'search'] = 'Rechercher';
+$lang[$fa_prefix.'address'] = 'Adresse';
+$lang[$fa_prefix.'title'] = 'Titre';
+$lang[$fa_prefix.'title-desc'] = 'Il s\'agit du titre de la recherche pour votre référence';
+$lang[$fa_prefix.'keyword-desc'] = 'Il s\'agit du mot-clé qui sera utilisé pour rechercher des entreprises, par exemple Éducation, Immobilier, etc.';
+$lang[$fa_prefix.'location-desc'] = 'Il s\'agit de l\'emplacement qui sera utilisé pour rechercher des entreprises, par exemple New York, Londres';
+$lang[$fa_prefix.'no-results-found'] = 'Aucun résultat trouvé.';
+$lang[$fa_prefix.'contacts'] = 'Contacts';
+$lang[$fa_prefix.'email'] = 'E-mail';
+$lang[$fa_prefix.'phone'] = 'Téléphone';
+$lang[$fa_prefix.'website'] = 'Site Web';
+$lang[$fa_prefix.'website'] = 'Site Web';
+$lang[$fa_prefix.'search-details'] = 'Détails de la recherche';
+$lang[$fa_prefix.'sync-to-lead'] = 'Synchroniser avec le prospect';
+$lang[$fa_prefix.'sync-all'] = 'Tout synchroniser';
+$lang[$fa_prefix.'search-successful'] = 'Recherche réussie';
+$lang[$fa_prefix.'contact-deleted-successfully'] = 'Contact supprimé avec succès';
+$lang[$fa_prefix.'contact-deletion-failed'] = 'Échec de la suppression du contact';
+$lang[$fa_prefix.'search-deleted-successfully'] = 'Recherche supprimée avec succès';
+$lang[$fa_prefix.'search-deletion-failed'] = 'Échec de la suppression de la recherche';
+$lang[$fa_prefix.'contact-synced-successfully'] = 'Contact synchronisé avec succès';
+$lang[$fa_prefix.'contact-sync-failed'] = 'Échec de la synchronisation du contact';
+$lang[$fa_prefix.'all-contacts-synced-successfully'] = 'Tous les contacts synchronisés avec succès';
+$lang[$fa_prefix.'syncing-contacts-failed'] = 'Échec de la synchronisation des contacts';
+$lang[$fa_prefix.'settings'] = 'Paramètres';
+$lang[$fa_prefix.'records-limit'] = 'Limite d\'enregistrements';
+$lang[$fa_prefix.'records-limit-desc'] = 'Cela limite le nombre de contacts qui seront importés. Définir une valeur élevée peut entraîner des temps d\'attente.';
+$lang[$fa_prefix.'settings-updated-successfully'] = 'Paramètres mis à jour avec succès';
+$lang[$fa_prefix.'assignee'] = 'Attribué à';
+$lang[$fa_prefix.'assignee-desc'] = 'Sélectionnez le personnel à assigner aux prospects lors de la synchronisation à partir des contacts de recherche.';
+$lang[$fa_prefix.'radius-desc'] = "C'est le rayon (en mètres) qui sera utilisé pour rechercher des entreprises, par exemple 5000";
+$lang[$fa_prefix.'radius'] = 'Rayon';
+$lang[$fa_prefix.'import-results-without-email'] = 'Importer les résultats sans e-mail';
+$lang[$fa_prefix.'delete-all-searches'] = 'Supprimer toutes les recherches';
+$lang[$fa_prefix.'all-searches-deleted-successfully'] = 'Toutes les recherches ont été supprimées avec succès';

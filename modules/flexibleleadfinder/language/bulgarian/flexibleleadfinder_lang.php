@@ -1,0 +1,46 @@
+<?php
+
+# Version 2.3.0
+$fa_prefix= 'flexibleleadfinder_';
+$lang[$fa_prefix.'lead-finder'] = 'Търсач на потенциални клиенти';
+$lang[$fa_prefix.'new-search'] = 'Ново Търсене';
+$lang[$fa_prefix.'result-count'] = 'Брой Резултати';
+$lang[$fa_prefix.'name'] = 'Име';
+$lang[$fa_prefix.'keyword'] = 'Ключова дума';
+$lang[$fa_prefix.'actions'] = 'Действия';
+$lang[$fa_prefix.'view-result'] = 'Преглед на Резултат';
+$lang[$fa_prefix.'search'] = 'Търсене';
+$lang[$fa_prefix.'address'] = 'Адрес';
+$lang[$fa_prefix.'title'] = 'Заглавие';
+$lang[$fa_prefix.'title-desc'] = 'Това е заглавието на търсенето за ваше справка';
+$lang[$fa_prefix.'keyword-desc'] = 'Това е ключовата дума, която ще се използва за търсене на бизнеси, например Образование, Недвижими имоти и т.н.';
+$lang[$fa_prefix.'location-desc'] = 'Това е местоположението, което ще се използва за търсене на бизнеси, например Ню Йорк, Лондон';
+$lang[$fa_prefix.'no-results-found'] = 'Не са намерени резултати.';
+$lang[$fa_prefix.'contacts'] = 'Контакти';
+$lang[$fa_prefix.'email'] = 'Имейл';
+$lang[$fa_prefix.'phone'] = 'Телефон';
+$lang[$fa_prefix.'website'] = 'Уебсайт';
+$lang[$fa_prefix.'website'] = 'Уебсайт';
+$lang[$fa_prefix.'search-details'] = 'Детайли за Търсене';
+$lang[$fa_prefix.'sync-to-lead'] = 'Синхронизирай с потенциален клиент';
+$lang[$fa_prefix.'sync-all'] = 'Синхронизирай всичко';
+$lang[$fa_prefix.'search-successful'] = 'Търсенето е успешно';
+$lang[$fa_prefix.'contact-deleted-successfully'] = 'Контактът е изтрит успешно';
+$lang[$fa_prefix.'contact-deletion-failed'] = 'Неуспешно изтриване на контакт';
+$lang[$fa_prefix.'search-deleted-successfully'] = 'Търсенето е изтрито успешно';
+$lang[$fa_prefix.'search-deletion-failed'] = 'Неуспешно изтриване на търсене';
+$lang[$fa_prefix.'contact-synced-successfully'] = 'Контактът е синхронизиран успешно';
+$lang[$fa_prefix.'contact-sync-failed'] = 'Неуспешна синхронизация на контакт';
+$lang[$fa_prefix.'all-contacts-synced-successfully'] = 'Всички контакти са синхронизирани успешно';
+$lang[$fa_prefix.'syncing-contacts-failed'] = 'Неуспешна синхронизация на контакти';
+$lang[$fa_prefix.'settings'] = 'Настройки';
+$lang[$fa_prefix.'records-limit'] = 'Лимит на Записите';
+$lang[$fa_prefix.'records-limit-desc'] = 'Това ограничава броя на контактите, които ще бъдат импортирани. Задаването на висока стойност може да доведе до изтичане на времето.';
+$lang[$fa_prefix.'settings-updated-successfully'] = 'Настройките са актуализирани успешно';
+$lang[$fa_prefix.'assignee'] = 'Изпълнител';
+$lang[$fa_prefix.'assignee-desc'] = 'Изберете служителя, който да бъде назначен за потенциалните клиенти при синхронизация от търсене на контакти.';
+$lang[$fa_prefix.'radius-desc'] = 'Това е радиусът (в метри), който ще се използва за търсене на фирми, например 5000';
+$lang[$fa_prefix.'radius'] = 'Радиус';
+$lang[$fa_prefix.'import-results-without-email'] = 'Импортиране на резултати без имейл';
+$lang[$fa_prefix.'delete-all-searches'] = 'Изтрийте всички търсения';
+$lang[$fa_prefix.'all-searches-deleted-successfully'] = 'Всички търсения са изтрити успешно';

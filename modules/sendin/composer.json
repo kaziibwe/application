@@ -1,0 +1,10 @@
+{
+    "require": {
+        "saloonphp/saloon": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brevo\\": "Brevo"
+        }
+    }
+}

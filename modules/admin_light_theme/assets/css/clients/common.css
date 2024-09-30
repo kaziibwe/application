@@ -1,0 +1,47 @@
+body .navbar-default {
+    z-index: 1;
+    width: 230px;
+    position: fixed;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.btn-primary, .available_time_info.hwp {
+    background: #2663eb;
+}
+
+
+body #wrapper .btn-primary,
+body .btn-pfxcbsubmit {
+    background: #2663eb;
+    border-color: #2663eb;
+}
+
+body .cb-form-wrapper {
+    top: calc(100% - 93.5%) !important;
+}
+
+body .btn-pfxcbsubmit:focus,
+body .btn-pfxcbsubmit:active,
+body .btn-pfxcbsubmit:hover,
+body #wrapper .btn-primary.active.focus,
+body #wrapper .btn-primary.active:focus,
+body #wrapper .btn-primary.active:hover,
+body #wrapper .btn-primary:active.focus,
+body #wrapper .btn-primary:active:focus,
+body #wrapper .btn-primary:active:hover,
+body #wrapper .open > .dropdown-toggle.btn-primary.focus,
+body #wrapper .open > .dropdown-toggle.btn-primary:focus,
+body #wrapper .open > .dropdown-toggle.btn-primary:hover {
+    background: #2663eb;
+    border-color: #2663eb;
+    color: #2663eb;
+}
+
+body .main_wrapper {
+    margin-top: 62px;
+}
+
+body .navbar.navbar-default.header .container ul.nav.navbar-nav.navbar-right {
+    margin-right: 92px;
+}

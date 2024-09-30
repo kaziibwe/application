@@ -1,0 +1,31 @@
+    .contract_info{
+        font-size: 14px;
+    }
+    .insurance-info-right{
+        font-size: 14px;
+        float: right;
+    }
+    .insurance_table{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .insurance_table_right{
+        font-size: 15px;
+        font-weight: 500;
+        float: right;
+    }
+    .publib-insurance-title{
+         background-color: #0000001c;
+    }
+    .hr-table-insurance{
+      border: 0;
+      border-top: 1px solid #25212147;
+      margin: auto;
+      
+    }
+    .table>thead>tr>th.tb_border, .table>tbody>tr>td.tb_border{
+      border-top: 1px solid #74726a !important;
+      border-right: 1px solid #74726a !important;
+      border-left: 1px solid #74726a !important;
+      border-bottom: 1px solid #74726a !important;
+    }

@@ -1,0 +1,33 @@
+.project-status-color-completed {
+	color:#444;
+	border:1px solid #444;
+}
+.project-status-color-scheduled {
+	color:#03A9F4;
+	border:1px solid #03A9F4;
+}
+.project-status-color-currentlyactive {
+	color:#84c529;
+	border:1px solid #84c529;
+}
+.paddedbooking > td {
+	padding: 20px 0px 20px 0px !important;
+}
+.rbfullwidth {
+	width: 100%;
+}
+.rbautooverflow {
+	overflow-x: auto;
+}
+.rbmaxwidth18 {
+	max-width: 18rem;
+}
+.rbminheight85 {
+	min-height: 85px;
+}
+.rbminheight35 {
+	min-height: 35px;
+}
+.rbfontsize24 {
+	font-size: 24px
+}
